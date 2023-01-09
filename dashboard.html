@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="dashboard.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark m-4 py-2 fixed-top" style="background-color: #407bff">
+		<!-- style="background-color: #03a9f4" -->
+		<div class="container">
+			<a href="#" class="navbar-brand">CareerGuru </a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#knowmore" class="nav-link">Know more</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact Us</a>
+					</li>
+				</ul>
+				<a class="btn btn-warning btn-sm mx-2" href="login.html">Login</a>
+				<a href="signup.html" class="btn btn-primary btn-sm mx-2">
+					Sign Up
+				</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-3 sidenav border border-dark">
+				<!-- <nav class="nav sidenav border border-dark"> -->
+				<div class="container text-center">
+					<h1 class="m-5">
+						<i class="bi bi-person-fill"></i>
+					</h1>
+				</div>
+				<div class="container text-center pb-4">
+					<h2 class="text-danger">
+						Hi, XYZ!
+					</h2>
+				</div>
+				<ul class="nav nav-pills flex-column mb-auto">
+					<li class="nav-item">
+						<a href="" class="btn btn-light my-2 w-100 p-3">Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="btn btn-light my-2 w-100 p-3">Dashboard</a>
+					</li>
+					<a href="" class="btn btn-light my-2 w-100 p-3"><i class="bi bi-gear-fill px-2"></i>Settings</a>
+				</ul>
+				<!-- </nav> -->
+			</div>
+			<div class="col-lg-8 matter p-3">
+				<div class="row mt-1 mb-3 mx-1 p-3 border border-dark">
+					<div class="col-2">
+						<div class="border border-dark h-100  bg-warning-subtle"></div>
+					</div>
+					<div class="col-7">
+						<div class="container">
+							<h3>Company Name</h3>
+							<p class="p-1">Desired role</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<button type="button" class="btn btn-dark text-light" data-bs-toggle="modal"
+							data-bs-target="#exampleModal1">
+							<i class="bi bi-caret-right-fill"></i>
+							<span class="d-none d-md-block"> Show More </span>
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+										<button type="button" class="btn-close" data-bs-dismiss="modal"
+											aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="row mt-1 mb-3 mx-5 py-3 border border-dark">
+											<div class="col-10">
+												<div class="container">
+													<h3>Software Engineer</h3>
+													<p class="p-1">Company Name</p>
+												</div>
+											</div>
+											<div class="col-2">
+												<div class="border mx-2 border-dark h-100"></div>
+											</div>
+										</div>
+										<div class="mx-5">
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Role:</span>Test Analyst
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Desired Skills:</span>
+												Java,Python
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Years of Experience:</span>0-3
+												Years
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Job Description:</span>Lorem
+												ipsum dolor, sit amet consectetur adipisicing elit.
+												Sunt mollitia, eos repellat reprehenderit accusamus ex
+												voluptate magni rerum sit architecto deserunt facere
+												unde sint animi!
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+											Close
+										</button>
+										<button type="button" class="btn btn-primary">
+											Apply Now
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-1 mb-3 mx-1 p-3 border border-dark">
+					<div class="col-2">
+						<div class="border border-dark h-100 bg-info-subtle"></div>
+					</div>
+					<div class="col-7">
+						<div class="container">
+							<h3>Company Name</h3>
+							<p class="p-1">Desired role</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<button type="button" class="btn btn-dark text-light" data-bs-toggle="modal"
+							data-bs-target="#exampleModal1">
+							<i class="bi bi-caret-right-fill"></i>
+							<span class="d-none d-md-block"> Show More </span>
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+										<button type="button" class="btn-close" data-bs-dismiss="modal"
+											aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="row mt-1 mb-3 mx-5 py-3 border border-dark">
+											<div class="col-10">
+												<div class="container">
+													<h3>Software Engineer</h3>
+													<p class="p-1">Company Name</p>
+												</div>
+											</div>
+											<div class="col-2">
+												<div class="border mx-2 border-dark h-100"></div>
+											</div>
+										</div>
+										<div class="mx-5">
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Role:</span>Test Analyst
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Desired Skills:</span>
+												Java,Python
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Years of Experience:</span>0-3
+												Years
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Job Description:</span>Lorem
+												ipsum dolor, sit amet consectetur adipisicing elit.
+												Sunt mollitia, eos repellat reprehenderit accusamus ex
+												voluptate magni rerum sit architecto deserunt facere
+												unde sint animi!
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+											Close
+										</button>
+										<button type="button" class="btn btn-primary">
+											Apply Now
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-1 mb-3 mx-1 p-3 border border-dark">
+					<div class="col-2">
+						<div class="border border-dark h-100 bg-danger-subtle"></div>
+					</div>
+					<div class="col-7">
+						<div class="container">
+							<h3>Company Name</h3>
+							<p class="p-1">Desired role</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<button type="button" class="btn btn-dark text-light" data-bs-toggle="modal"
+							data-bs-target="#exampleModal1">
+							<i class="bi bi-caret-right-fill"></i>
+							<span class="d-none d-md-block"> Show More </span>
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+										<button type="button" class="btn-close" data-bs-dismiss="modal"
+											aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="row mt-1 mb-3 mx-5 py-3 border border-dark">
+											<div class="col-10">
+												<div class="container">
+													<h3>Software Engineer</h3>
+													<p class="p-1">Company Name</p>
+												</div>
+											</div>
+											<div class="col-2">
+												<div class="border mx-2 border-dark h-100"></div>
+											</div>
+										</div>
+										<div class="mx-5">
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Role:</span>Test Analyst
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Desired Skills:</span>
+												Java,Python
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Years of Experience:</span>0-3
+												Years
+											</div>
+											<div class="fs-5 p-3">
+												<span class="fw-bold">Job Description:</span>Lorem
+												ipsum dolor, sit amet consectetur adipisicing elit.
+												Sunt mollitia, eos repellat reprehenderit accusamus ex
+												voluptate magni rerum sit architecto deserunt facere
+												unde sint animi!
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+											Close
+										</button>
+										<button type="button" class="btn btn-primary">
+											Apply Now
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+					praesentium suscipit maxime itaque, dolore nemo non accusantium,
+					ullam maiores a reprehenderit possimus amet. Voluptatum dignissimos,
+					odit placeat ratione dolor nam modi eveniet perspiciatis dolorum
+					recusandae enim minima reiciendis nulla voluptas corrupti fugiat,
+					possimus cupiditate et ducimus aut ipsa iure tenetur accusamus.
+					Similique nam maiores, vel adipisci quos exercitationem ducimus
+					consequuntur deleniti impedit eius minima saepe necessitatibus sit,
+					totam vitae ipsam autem optio beatae minus harum laborum, nihil
+					velit. Autem a iste accusamus in quia quae soluta nobis, cumque
+					fugit quaerat fuga sapiente natus delectus recusandae praesentium
+					omnis magni eius cupiditate possimus voluptatibus. Nesciunt illo rem
+					adipisci. Quidem ab id esse rem tenetur, libero doloremque vero,
+					distinctio nemo vitae fuga nesciunt. Hic itaque, doloribus eligendi
+					labore consequuntur velit laudantium dicta minus corrupti voluptate
+					sint quidem distinctio, enim eaque tempore magni dolorum error
+					consequatur voluptas dignissimos maxime dolores? Nemo cumque id
+					porro itaque! Ratione, odit fugiat. Ducimus, quaerat cupiditate!
+					Non, sint laudantium. Commodi quos quas praesentium deleniti aut,
+					neque error laborum quidem cum totam suscipit amet ratione quisquam
+					vitae repellat dolor facilis. Tempore voluptas mollitia quisquam
+					tempora enim vero libero minus delectus autem rerum, dolorem
+					repellat. Eveniet et totam quis impedit cumque? Lorem ipsum dolor
+					sit amet consectetur adipisicing elit. Veniam consequatur nam ipsa
+					autem quaerat ex, ratione nisi rem architecto excepturi
+					exercitationem magnam! Facilis consequatur ab molestiae quisquam
+					ratione expedita quia porro sed, ut aliquid asperiores corrupti.
+					Quos porro quia esse libero voluptatum error cupiditate consequatur
+					impedit? Odio labore iste, quis corrupti dolorem quidem recusandae
+					temporibus aspernatur nihil, modi aliquid sapiente doloribus culpa
+					nisi dignissimos, nulla ipsum cumque ex eos eius dolores deserunt
+					asperiores facere! Tempore blanditiis quae provident dolore
+					excepturi sit nemo deserunt atque libero animi, aliquid officia
+					consequuntur rerum ea aspernatur est enim autem vitae minus officiis
+					minima ipsam. Sit cum nobis cupiditate recusandae suscipit molestiae
+					ducimus repellendus qui? Neque saepe eum, asperiores doloremque
+					fuga, eius qui, libero molestias odio reprehenderit quae iure
+					debitis eligendi repudiandae numquam nemo veritatis modi culpa porro
+					officia fugit molestiae aperiam expedita odit? Reiciendis ab nulla,
+					vel quia ut eveniet eligendi, repellendus harum vitae deleniti
+					consectetur incidunt, veritatis accusantium est aliquam quibusdam
+					error placeat mollitia possimus optio a amet recusandae! Esse
+					aspernatur, magni vero repellendus aperiam, ipsam totam delectus
+					eius sunt exercitationem quis officiis laboriosam! Vel repellat sint
+					excepturi iure dignissimos sapiente, quos accusantium dolore,
+					tempora impedit consequatur animi deserunt ad laborum ullam
+					laudantium officia, quibusdam veritatis tenetur consectetur beatae!
+					Odit iusto tempora corporis vitae a quo similique fuga, eum
+					molestiae totam dolor, quibusdam repellat! Fugiat totam nobis
+					similique quasi sed impedit unde, officia eveniet ratione, at culpa
+					debitis voluptas dolore repudiandae eos obcaecati ipsam cum eligendi
+					officiis natus fugit aperiam corrupti. Mollitia quos praesentium,
+					natus iste unde id ipsam in facilis rerum vel laboriosam aliquam sit
+					dolores tempore aperiam obcaecati cumque optio! Laborum obcaecati
+					ducimus iusto. Corrupti facilis fuga doloremque nemo nobis facere
+					architecto nihil consectetur! Rem excepturi delectus quibusdam
+					atque. Debitis, harum minima? Ducimus non praesentium, expedita
+					eveniet veritatis quae velit ex.
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

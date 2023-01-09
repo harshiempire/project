@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="sign.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark py-2 fixed-top" style="background-color: #407bff">
+		<!-- style="background-color: #03a9f4" -->
+		<div class="container">
+			<a href="#" class="navbar-brand">CareerGuru </a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#knowmore" class="nav-link">Know more</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact Us</a>
+					</li>
+				</ul>
+				<a href="login.html" class="btn btn-warning btn-sm mx-2">Login</a>
+				<button class="btn btn-primary btn-sm mx-2" href="signup.html">Sign Up</button>
+			</div>
+		</div>
+	</nav>
+	<section class="form mt-lg-5 my-4 mx-5">
+		<div class="container">
+			<div class="row no-gutters shadow-lg">
+				<div class="col-7 d-none d-lg-block pl-4 mt-4" style="
+              border-top-left-radius: 30px;
+              border-bottom-left-radius: 30px;
+            ">
+					<img src="sign.png" class="img-fluid p-5" alt="" />
+				</div>
+				<div class="col-lg-5 px-5 pt-5 text-md-start text-center">
+					<h1 class="fw-bold py-3">Sign Up</h1>
+					<form>
+						<div class="col">
+							<div class="form-row">
+								<input type="text" placeholder="Full Name" class="form-control my-3 p-2" />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col">
+								<input type="email" placeholder="Email-Address" class="form-control my-3 p-2" />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col">
+								<input type="password" placeholder="Password" class="form-control my-3 p-2" />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col my-3 p-2 text-center age">
+								<input type="number" placeholder="Age" />
+							</div>
+						</div>
+						<div class="col">
+							<a href="sform.html" class="btn btn1 mb-4 mt-3 sbtn" type="button" href="">SignUp</a>
+						</div>
+						<div class="col mb-3 pb-2">
+							<a class="" href="#">Already have an Account?</a>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
